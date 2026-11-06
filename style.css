@@ -38,22 +38,6 @@
   --page: 64rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --board: #140d26;
-    --paper: #1e1536;
-    --ink: #f1ebfb;
-    --soft: #b8aed4;
-    --line: #3f3266;
-    --card-edge: #352a5a;
-
-    --hl: #5a1fa6;
-    --tape-1: #6c2fc4;
-    --tape-2: #a4329c;
-    --link: #c58cff;
-  }
-}
-
 *,
 *::before,
 *::after {
