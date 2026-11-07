@@ -21,18 +21,17 @@
 }
 
 :root {
-  --board: #f6f4fb;
+  --board: #f6f7fb;
   --paper: #ffffff;
-  --ink: #231446;
-  --soft: #5b5175;
-  --line: #cbc1e0;
-  --card-edge: #dcd4ea;
+  --ink: #24262b;
+  --line: #8aa8f2;
+  --card-edge: #cdbdf0;
 
-  /* Pastel lavender highlighter, with lavender and pink tape */
-  --hl: #d4c6e8;
-  --tape-1: #d4c6e8;
-  --tape-2: #f0c6dc;
-  --link: #7800b6;
+  /* Brand P5 Playful at full strength: Periwinkle highlighter and tape, Blush tape, Lavender card edge */
+  --hl: #8aa8f2;
+  --tape-1: #8aa8f2;
+  --tape-2: #f4c3d9;
+  --link: #8aa8f2;
 
   --font: "Atkinson Hyperlegible Next", system-ui, sans-serif;
   --page: 64rem;
@@ -86,10 +85,6 @@ a {
 a:focus-visible {
   outline: 3px solid var(--ink);
   outline-offset: 3px;
-}
-
-.soft {
-  color: var(--soft);
 }
 
 /* Highlighter: a flat marker stroke that wraps line by line */
