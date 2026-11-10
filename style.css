@@ -297,15 +297,6 @@ section > h2 {
   margin-top: 1.5rem;
 }
 
-.cta-store {
-  cursor: default;
-}
-
-.cta-store:hover {
-  background: var(--ink);
-  color: var(--paper);
-}
-
 .fine {
   margin-top: 1rem;
   font-size: 0.95rem;
