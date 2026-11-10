@@ -286,11 +286,131 @@ section > h2 {
   max-width: 40rem;
 }
 
+/* Marketing home */
+
+.hero-split {
+  align-items: center;
+  padding-top: 3.5rem;
+}
+
+.hero-split .lede {
+  margin-top: 1.5rem;
+}
+
+.cta-store {
+  cursor: default;
+}
+
+.cta-store:hover {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.fine {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  opacity: 0.75;
+}
+
+/* A phone rim in the brand periwinkle, matching the App Store images */
+.phone {
+  justify-self: center;
+  width: min(100%, 19rem);
+  margin: 0;
+  padding: 0.6rem;
+  background: var(--paper);
+  border: 0.45rem solid var(--hl);
+  border-radius: 2.75rem;
+  transform: rotate(2deg);
+  box-shadow: 0 1.5rem 3rem -1rem rgb(36 38 43 / 0.25);
+}
+
+.phone img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 2rem;
+}
+
+/* Horizontally scrolling strip of the App Store images */
+.gallery {
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem 0 1.25rem;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(10rem, 1fr);
+  gap: 1.25rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.gallery li {
+  scroll-snap-align: start;
+}
+
+.gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--card-edge);
+  border-radius: 1.25rem;
+}
+
+.chips {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.chips li {
+  padding: 0.5rem 1rem;
+  background: var(--paper);
+  border: 1.5px solid var(--card-edge);
+  border-radius: 999px;
+}
+
+.chips li:nth-child(3n + 2) {
+  border-color: var(--tape-2);
+}
+
+.chips li:nth-child(3n) {
+  border-color: var(--line);
+}
+
+.plans {
+  grid-template-columns: repeat(2, minmax(0, 22rem));
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.price span {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.closer {
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
 @media (max-width: 800px) {
   .hero,
   .cards-row,
-  .items {
+  .items,
+  .plans {
     grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    grid-auto-columns: 70%;
   }
 }
 

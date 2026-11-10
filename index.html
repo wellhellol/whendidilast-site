@@ -4,7 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>When Did I Last Do That?</title>
-  <meta name="description" content="A tiny iPhone app that remembers when you last did something. No accounts, no cloud, no judgment.">
+  <meta name="description" content="A tiny iPhone app that remembers when you last did something. One tap to log, one glance to check. No accounts, no cloud, no judgment.">
+  <meta property="og:title" content="When Did I Last Do That?">
+  <meta property="og:description" content="One tap logs it. One glance tells you when. Built for ADHD brains, private by design.">
+  <meta property="og:image" content="/img/one-tap.jpg">
   <link rel="icon" href="/icon.png">
   <link rel="apple-touch-icon" href="/icon.png">
   <link rel="stylesheet" href="/style.css">
@@ -16,18 +19,118 @@
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero hero-split">
       <div>
         <img class="app-icon" src="/icon.png" alt="">
         <h1><span class="hl">When did I last...?&nbsp;🤔</span></h1>
-      </div>
-      <div>
-        <p class="lede">Water the plants? Get a new toothbrush? Take my meds? One tap logs it, and one glance tells you when. Built for ADHD brains with your privacy in mind. No accounts, no cloud, no gamification, no judgment.</p>
+        <p class="lede">Water the plants? Get a new toothbrush? Take my meds? One tap logs it, and one glance tells you when. Built for ADHD brains with your privacy in mind.</p>
         <div class="ctas">
-          <a class="cta" href="/support/">Support</a>
-          <a class="cta" href="/privacy/">Privacy Policy</a>
+          <span class="cta cta-store">Coming soon to the App Store</span>
         </div>
+        <p class="fine">For iPhone. Free to start, with a one-time upgrade and never a subscription.</p>
       </div>
+      <figure class="phone">
+        <img src="/img/dashboard.jpg" width="506" height="1100" alt="The app's main screen: colorful cards like Water the plants, Yesterday, and Take my meds, Today at 8:05 AM.">
+      </figure>
+    </section>
+
+    <section>
+      <h2><span class="hl">No streaks. No guilt. No nagging.</span></h2>
+      <div class="cards cards-row">
+        <article class="card">
+          <h3>One tap logs it ✨</h3>
+          <p>Did the thing? Tap its card. That's the whole workflow, so it actually gets done.</p>
+        </article>
+        <article class="card">
+          <h3>One glance tells you when 👀</h3>
+          <p>"Yesterday." "4 days ago." "October 11." The answer is waiting the moment you wonder.</p>
+        </article>
+        <article class="card">
+          <h3>Kind by design 💛</h3>
+          <p>No red badges, no streaks to break, no scolding. It helps you remember without judging how long it's been.</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2><span class="hl">Take a peek</span></h2>
+      <ul class="gallery" aria-label="App screenshots">
+        <li><img src="/img/one-tap.jpg" width="506" height="1100" loading="lazy" alt="One tap logs it. Tap a card to log it now. One glance tells you when."></li>
+        <li><img src="/img/history.jpg" width="506" height="1100" loading="lazy" alt="See every time. Long-press any card for its full history."></li>
+        <li><img src="/img/color-schemes.jpg" width="506" height="1100" loading="lazy" alt="Make it yours. Five color schemes: Playful, Greyscale, Blues, Sunset and Greens."></li>
+        <li><img src="/img/fonts.jpg" width="506" height="1100" loading="lazy" alt="Read it your way. Pick Atkinson Hyperlegible, System or OpenDyslexic."></li>
+        <li><img src="/img/privacy.jpg" width="506" height="1100" loading="lazy" alt="Totally private. No accounts, no cloud, no ads, no AI, no tracking."></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2><span class="hl">For all the little things</span></h2>
+      <ul class="chips">
+        <li>💊 Take my meds</li>
+        <li>🪴 Water the plants</li>
+        <li>🪥 New toothbrush</li>
+        <li>🛏️ Change the sheets</li>
+        <li>🐈 Clean the litter box</li>
+        <li>🚰 Swap the water filter</li>
+        <li>🍞 Feed the sourdough starter</li>
+        <li>🔋 Smoke detector battery</li>
+        <li>🥦 Eat a vegetable</li>
+        <li>🌱 Touch grass</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2><span class="hl">Made to be easy on you</span></h2>
+      <ul class="items">
+        <li class="item">
+          <h3>Fonts that fit your brain</h3>
+          <p>Atkinson Hyperlegible by default, from the Braille Institute. Switch to OpenDyslexic or the iPhone's own font anytime.</p>
+        </li>
+        <li class="item">
+          <h3>Ask Siri</h3>
+          <p>"Log water plants in When Did I Last." Your hands are full, and that's fine.</p>
+        </li>
+        <li class="item">
+          <h3>Every time, not just the last</h3>
+          <p>Long-press any card to see its full history, from the most recent time back to the first.</p>
+        </li>
+        <li class="item">
+          <h3>Totally private</h3>
+          <p>No accounts, no cloud, no ads, no AI, no analytics. Everything you log stays on your iPhone. <a href="/privacy/">Read the policy</a>.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2><span class="hl">Free to start. Unlimited forever.</span></h2>
+      <div class="cards plans">
+        <article class="card">
+          <h3>Free</h3>
+          <p class="price">$0</p>
+          <ul>
+            <li>Up to 3 items at a time</li>
+            <li>Latest log on every item</li>
+            <li>Greyscale theme</li>
+            <li>Siri, every font, export and import</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Unlimited</h3>
+          <p class="price">$1.99 <span>once</span></p>
+          <ul>
+            <li>As many items as you like</li>
+            <li>Full history for every item</li>
+            <li>All five color schemes</li>
+            <li>No subscription, ever</li>
+          </ul>
+        </article>
+      </div>
+      <p class="fine">Every log is saved on the free tier too, so upgrading reveals the history you already have.</p>
+    </section>
+
+    <section class="closer">
+      <h2><span class="hl">Let your phone do the remembering 🧠💛</span></h2>
+      <span class="cta cta-store">Coming soon to the App Store</span>
     </section>
   </main>
 
